@@ -13,7 +13,7 @@ if (isset($_POST['registerBtn'])) {
     // Hash the password
     $hashed_password = password_hash($reg_password, PASSWORD_DEFAULT);
 
-    $host = "localhost";
+    $host = "127.0.0.1";
     $dbUsername = "root";
     $dbPassword = "";
     $dbname = "new";
